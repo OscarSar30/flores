@@ -42,7 +42,7 @@ body{
     animation-delay: .8s;
 }
 
-.description{
+/*.description{
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
@@ -71,6 +71,25 @@ body{
 
 .description{
     color: #fbff00;
+}*/
+.description {
+    text-align: center; /* Centra el texto */
+    font-size: 1.5em; /* Tamaño del texto */
+    color: #fff; /* Color del texto */
+    margin: 20px; /* Espacio alrededor */
+    padding: 20px; /* Espacio interno */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra */
+    max-width: 80%; /* Ancho máximo */
+    margin-left: auto; /* Centra el contenedor */
+    margin-right: auto; /* Centra el contenedor */
+    line-height: 1.6; /* Altura de línea */
+    font-family: 'Arial', sans-serif; /* Fuente */
+}
+
+.description span {
+    display: inline-block; /* Permite que el span respete el tamaño del contenedor */
 }
 
 /* Estilo para el botón */
